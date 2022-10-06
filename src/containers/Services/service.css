@@ -1,0 +1,15 @@
+.container-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem 3rem;
+}
+.md-btn {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  padding: 0.2rem 1rem;
+  text-align: center;
+}

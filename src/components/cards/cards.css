@@ -1,0 +1,21 @@
+.card {
+  padding: 1rem;
+  webkit-box-shadow: 1px 7px 17px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 7px 17px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 7px 17px -3px rgba(0, 0, 0, 0.75);
+  padding: 0.6rem;
+  height: auto;
+  position: relative;
+  flex: 0 1 30rem;
+
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 10px;
+}
+.one-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}

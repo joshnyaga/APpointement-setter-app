@@ -1,0 +1,30 @@
+.formInput {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.formInput__input {
+  padding: 0.7rem;
+  background: #224957;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  width: 300px;
+}
+.formInput__input,
+.formInput__input::placeholder {
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.2em;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.formInput__input:focus {
+  border: 1px solid #20df7f;
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 450px) {
+  .formInput__input {
+    width: 90vw;
+  }
+}

@@ -1,38 +1,55 @@
-.App {
+.styled-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.styled-table thead tr {
+  color: var(--green);
+  border-radius: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.styled-table th {
+  padding: 0.5rem 1rem;
+}
+.styled-table td {
+  padding: 0.5rem 1rem;
+  color: var(--white);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid var(--green);
+  border-radius: 10px;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: var(--green);
+}
+.styled-table tbody tr:hover {
+  color: var(--green);
+}
+.heading.center {
+  text-align: center;
+}
+.searchbar {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
 }
