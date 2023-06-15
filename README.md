@@ -71,7 +71,12 @@ Then start dev server
 npm start
 ```
 
+## Screenshots
 
+![screenshot](./imgs/screenshot1.png)
 
+![screenshot](./imgs/screenshot2.png)
+
+![screenshot](./imgs/screenshot3.png)
 
 
